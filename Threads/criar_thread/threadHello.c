@@ -13,12 +13,12 @@ int main(void) {
 	printf("\nCriando threads\n\n");
 
 	//Cria as threads
-	pthread_create(&p1,NULL,funcaoImprime,"A");
-	pthread_create(&p2,NULL,funcaoImprime,"B");
+	pthread_create(&p1, NULL, funcaoImprime, "A");
+	pthread_create(&p2, NULL, funcaoImprime, "B");
 
 	//Espera
-	pthread_join(p1,NULL);
-	pthread_join(p2,NULL);
+	pthread_join(p1, NULL);
+	pthread_join(p2, NULL);
 	printf("Terminando!\n");
 	
 	return 0;
