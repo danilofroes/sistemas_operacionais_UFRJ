@@ -4,6 +4,8 @@
 *.a
 *.exe
 *.out
+*.pdf
+*.zip
 
 **/output
 
